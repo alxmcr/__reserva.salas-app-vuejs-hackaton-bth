@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400');
+@import 'vendor/normalize.scss';
+@import '_variables.scss';
+@import 'modules/index.scss';
+
+
+body{
+    background-image: url(assets/images/fondo-principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* Full height */
+    height: 100%;  
+  }

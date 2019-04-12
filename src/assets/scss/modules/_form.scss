@@ -1,0 +1,52 @@
+#form-login{
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#login{
+  margin: 0 auto;
+  width: 30%;
+}
+
+.form-inputs{
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-botones{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form-boton{
+  border: 1px solid white;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.form-input{
+  border: 0;
+  border-bottom: 1px solid white;
+  margin-bottom: 25px;
+}
+
+.form-label{
+  color: white;
+}
+
+.form-label, .form-input, .form-boton{
+  font-family: $font-family-secondary, sans-serif;
+}
+
+.form-input, .form-boton{
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+
